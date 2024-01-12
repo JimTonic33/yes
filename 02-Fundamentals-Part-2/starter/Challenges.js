@@ -16,8 +16,6 @@
 // const BMIJohn = massJohn / (heightJohn * heightJohn);
 // const markHigherBMI = BMIMark > BMIJohn
 
-
-
 // if (BMIMark > BMIJohn) { console.log(`Mark's BMI(${BMIMark}) is higher than John's (${BMIJohn})`) } else { console.log(`John's BMI(${BMIJohn}) is higher than Marks's(${BMIMark})`) }
 
 //CHALLENGE 3
@@ -57,19 +55,17 @@
 // }
 // checkWinner(scoreDolphins, scoreKoalas)
 
-
-
 // const bill = 275;
 // const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
 // console.log(`The bill was ${bill}, the tip was ${tip} and the total value ${bill + tip}.`)
 
-const calcTip = function(bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
-}
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
 
-const bills = [125, 555, 44]
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
-const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2], ]
+const bills = [125, 555, 44];
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 // console.log(bills, tips, totals);
